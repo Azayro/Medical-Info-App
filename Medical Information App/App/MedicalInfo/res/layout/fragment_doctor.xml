@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/practiseAddressTV"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#A4A4A4">
+
+    <TextView
+        android:id="@+id/docNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Doctor Name:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FF0000" />
+
+    <EditText
+        android:id="@+id/doctorNameEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/docNameTV"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="Input your doctors name"
+        android:inputType="text"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/practiceAddressTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/doctorNameEdit"
+        android:text="Practice Address"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FF0000" />
+
+    <EditText
+        android:id="@+id/practiceAddress1Edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/practiceAddressTV"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="Input the address of your"
+        android:inputType="text"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/practiceAddress2Edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/practiceAddress1Edit"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="doctor&apos;s practice"
+        android:inputType="text"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/practiceAddress3Edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/practiceAddress2Edit"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="text"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/practicePostcodeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/practiceAddress3Edit"
+        android:text="Postcode"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FF0000" />
+
+    <EditText
+        android:id="@+id/practicePostcodeEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/practicePostcodeTV"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="Input doctor&apos;s practice post code"
+        android:inputType="text"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/docConNumTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/practicePostcodeEdit"
+        android:text="Contact Number"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FF0000" />
+
+    <EditText
+        android:id="@+id/docConNumEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/docConNumTV"
+        android:ems="10"
+        android:hint="Input doctor&apos;s number"
+        android:inputType="phone"
+        android:textColor="#FFFFFF" />
+ 
+</RelativeLayout>

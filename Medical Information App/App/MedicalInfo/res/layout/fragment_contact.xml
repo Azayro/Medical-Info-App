@@ -1,0 +1,243 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A4A4A4"
+    tools:context="com.example.medicalinfo.ContactActivity$PlaceholderFragment" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="496dp"
+        android:orientation="vertical" >
+        
+	    <TextView
+	        android:id="@+id/nextOfKinTV"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:text="Next of Kin/Contact Person"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FF0000" />
+	
+	    <TextView
+	        android:id="@+id/nokNameTV"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/nextOfKinTV"
+	        android:text="Name:"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#FF0000" />
+	
+	    <EditText
+	        android:id="@+id/nokNameEdit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/nokNameTV"
+	        android:ems="10"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:hint="Input Next of Kin name"
+	        android:inputType="text"
+	        android:textColor="#FFFFFF" />
+	
+	    <TextView
+	        android:id="@+id/changePinTitleTV"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/nokNameEdit"
+	        android:text="Relationship:"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#FF0000" />
+	
+	    <EditText
+	        android:id="@+id/nokRelationEdit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/changePinTitleTV"
+	        android:ems="10"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:hint="E.g. Wife, Mother, Sibling"
+	        android:inputType="text"
+	        android:textColor="#FFFFFF" />
+	
+	    <TextView
+	        android:id="@+id/nokAddressTV"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/nokRelationEdit"
+	        android:text="Address:"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#FF0000" />
+	
+	    <EditText
+	        android:id="@+id/nokAddress1Edit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/nokAddressTV"
+	        android:ems="10"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:hint="E.g. Street"
+	        android:inputType="text"
+	        android:textColor="#FFFFFF" />
+	
+	    <EditText
+	        android:id="@+id/nokAddress2Edit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/nokAddress1Edit"
+	        android:ems="10"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:hint="E.g. Village or Town"
+	        android:inputType="text"
+	        android:textColor="#FFFFFF" />
+	
+	    <EditText
+	        android:id="@+id/nokAddress3Edit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/nokAddress2Edit"
+	        android:ems="10"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:hint="E.g. Postcode"
+	        android:inputType="text"
+	        android:textColor="#FFFFFF" />
+	
+	    <TextView
+	        android:id="@+id/nokConNumTV"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/nokAddress3Edit"
+	        android:text="Contact Number:"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#FF0000" />
+	
+	    <EditText
+	        android:id="@+id/nokConNumEdit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/nokConNumTV"
+	        android:ems="10"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:hint="Input a contact number"
+	        android:inputType="phone"
+	        android:textColor="#FFFFFF" />
+	
+	    <TextView
+	        android:id="@+id/careForTV"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/nokConNumEdit"
+	        android:text="The follow person relies on me to care for them:"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#FF0000" />
+	
+	    <TextView
+	        android:id="@+id/careForeNameTV"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/careForTV"
+	        android:text="Name:"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#FF0000" />
+	
+	    <EditText
+	        android:id="@+id/careForNameEdit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/careForeNameTV"
+	        android:ems="10"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:hint="E.g. Children, ill person etc"
+	        android:inputType="text"
+	        android:textColor="#FFFFFF" />
+	
+	    <TextView
+	        android:id="@+id/careForAddressTV"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/careForNameEdit"
+	        android:text="Address:"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#FF0000" />
+	
+	    <EditText
+	        android:id="@+id/careForAddress1Edit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/careForAddressTV"
+	        android:ems="10"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:inputType="text"
+	        android:textColor="#FFFFFF" />
+
+	    <EditText
+	        android:id="@+id/careForAddress2Edit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:inputType="text"
+	        android:textColor="#FFFFFF" />
+
+	    <EditText
+	        android:id="@+id/careForAddress3Edit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:inputType="text"
+	        android:textColor="#FFFFFF" />
+
+	    <TextView
+	        android:id="@+id/careForConNumTV"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Contact Number:"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#FF0000" />
+
+	    <EditText
+	        android:id="@+id/careForConNumEdit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:inputType="phone"
+	        android:textColor="#FFFFFF" />
+
+	</LinearLayout>
+</ScrollView>

@@ -1,0 +1,43 @@
+Medical Information App
+
+Meeting assignment requirements:
+
+1, Design of forms based on the Medical Information Card:
+	Forms based on the Medical Information card were
+	successfully implemented.
+	I developed a tab system including all the information
+	that was on the pdf provided by 'client'
+	I maintained the red text titles and grey background theme.
+	A main screen is included giving a brief how-to use 
+	description.
+
+2, Add/Modify data:
+	A system to be able to add/modify data was successfully
+	implemented.
+	To start with the text fields are uneditable. By selecting
+	edit mode from the menu options. When edit mode is selected
+	the user is allowed to edit all text fields. Selecting
+	edit mode again from the menu will then set all fields
+	to uneditable.
+
+3, Data stored to a file:
+	Storing data has been successfully implemented.
+	All the text fields in each page will be saved to their own
+	file. 
+
+4, Data loading:
+	Loading data has been successfully implemented.
+	When the application is loaded up it will check to 			see if there are files to load data from.
+
+5, Callable telephone numbers:
+	The ability to call numbers has been successfully 	implemented.
+	If there are numbers in a telephone text field, then it 
+	is callable when in non-edit mode.
+
+6, PIN setup:
+	A PIN system has been successfully implemented. 
+	2 separate activities were created: 
+	First activity for initially creating a PIN, which is 		called if a PIN has not been set up,
+	Second activity for changing the PIN.
+
+	A PIN is required to be entered to enter edit mode.

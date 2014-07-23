@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:background="#A4A4A4">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="496dp"
+        android:orientation="vertical" >
+        
+	    <TextView
+	        android:id="@+id/medicationTV"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:text="My Medication"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FF0000" />
+	
+	    <EditText
+	        android:id="@+id/meds2Edit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/meds1Edit"
+	        android:ems="10"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:hint="List your medication"
+	        android:inputType="text"
+	        android:textColor="#FFFFFF" />
+	
+	    <EditText
+	        android:id="@+id/meds3Edit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/meds2Edit"
+	        android:ems="10"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:inputType="text"
+	        android:textColor="#FFFFFF" />
+	
+	    <EditText
+	        android:id="@+id/meds4Edit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/meds3Edit"
+	        android:ems="10"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:inputType="text"
+	        android:textColor="#FFFFFF" />
+	
+	    <EditText
+	        android:id="@+id/meds5Edit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/meds4Edit"
+	        android:ems="10"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:inputType="text"
+	        android:textColor="#FFFFFF" />
+	
+	    <EditText
+	        android:id="@+id/meds1Edit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/medicationTV"
+	        android:ems="10"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:inputType="text"
+	        android:textColor="#FFFFFF" >
+	
+	        <requestFocus />
+	    </EditText>
+	
+	    <TextView
+	        android:id="@+id/medicalProblemsTV"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/meds5Edit"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:text="Medical Problems"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FF0000" />
+	
+	    <TextView
+	        android:id="@+id/medProblemsDescTV"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/medicalProblemsTV"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:text="List any medical problem, illness or allergy:"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#FF0000" />
+	
+	    <EditText
+	        android:id="@+id/medProbs1Edit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/medProblemsDescTV"
+	        android:ems="10"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:hint="E.g. Asthema"
+	        android:inputType="text"
+	        android:textColor="#FFFFFF" />
+	
+	    <EditText
+	        android:id="@+id/medProbs2Edit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/medProbs1Edit"
+	        android:ems="10"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:hint="E.g. Nut Allergy"
+	        android:inputType="text"
+	        android:textColor="#FFFFFF" />
+	
+	    <EditText
+	        android:id="@+id/medProbs3Edit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/medProbs2Edit"
+	        android:ems="10"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:hint="E.g. Emphysema"
+	        android:inputType="text"
+	        android:textColor="#FFFFFF" />
+	
+	    <EditText
+	        android:id="@+id/medProbs4Edit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/medProbs3Edit"
+	        android:ems="10"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:inputType="text"
+	        android:textColor="#FFFFFF" />
+	
+	    <EditText
+	        android:id="@+id/medProbs5Edit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/medProbs4Edit"
+	        android:ems="10"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:inputType="text"
+	        android:textColor="#FFFFFF" />
+
+	    <EditText
+	        android:id="@+id/medProbs6Edit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:inputType="text"
+	        android:textColor="#FFFFFF" />
+
+	    <EditText
+	        android:id="@+id/medProbs7Edit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:inputType="text"
+	        android:textColor="#FFFFFF" />
+
+	    <CheckBox
+	        android:id="@+id/BSLInterpreterCB"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:clickable="false"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:text="I need a BSL interpreter"
+	        android:textColor="#FF0000"
+	        android:textColorHint="#FF0000" />
+
+	    <CheckBox
+	        android:id="@+id/lipReadCB"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:clickable="false"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:text="I lip read"
+	        android:textColor="#FF0000"
+	        android:textColorHint="#FF0000" />
+
+	    <CheckBox
+	        android:id="@+id/hearingAidCB"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:clickable="false"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:text="I use a hearing aid"
+	        android:textColor="#FF0000" />
+
+	    <TextView
+	        android:id="@+id/myCarerTV"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="My Carer"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FF0000" />
+
+	    <TextView
+	        android:id="@+id/myCarerNameTV"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Name:"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#FF0000" />
+
+	    <EditText
+	        android:id="@+id/myCarerNameEdit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:inputType="text"
+	        android:textColor="#FFFFFF" />
+
+	    <TextView
+	        android:id="@+id/myCarerAddressTV"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Address:"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#FF0000" />
+
+	    <EditText
+	        android:id="@+id/myCarerAddress1Edit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:inputType="text"
+	        android:textColor="#FFFFFF" />
+
+	    <EditText
+	        android:id="@+id/myCarerAddress2Edit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:inputType="text"
+	        android:textColor="#FFFFFF" />
+
+	    <EditText
+	        android:id="@+id/myCarerAddress3Edit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:inputType="text"
+	        android:textColor="#FFFFFF" />
+
+	    <TextView
+	        android:id="@+id/myCarerConNumTV"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Contact Number:"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#FF0000" />
+
+	    <EditText
+	        android:id="@+id/myCarerConNumEdit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:inputType="phone"
+	        android:textColor="#FFFFFF" />
+
+	</LinearLayout>
+
+</ScrollView>
